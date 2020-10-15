@@ -37,6 +37,7 @@ terraform apply
 
 The repository contains a shell script to create documents. The values of the db, collection, etc. are hard-coded in the script and align with the Terraform config.
 
+The script is from https://github.com/Krumelur/AzureScripts
 
 ```
 mkaesz@arch ~/w/tf-azure-cosmosdb (master)> bash cosmosdb_create_document.sh
